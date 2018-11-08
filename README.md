@@ -28,12 +28,11 @@ Web Vulnerability Scanner: SQL
 ## ![avatar](https://github.com/GPSWiFi/SQL-injection/blob/master/1.png?raw=true)
 ## ![avatar](https://github.com/GPSWiFi/SQL-injection/blob/master/2.png?raw=true)
 ## 1. 判断注入位置：
-  - 判断GET,POST方法:GET, POST = "GET", "POST"                           
-  - HTTP报文的头部字段——>设置Cookie、User-Agent、Referer: COOKIE, UA, REFERER  = "Cookie", "User-Agent", "Referer"  
+  - 判断GET,POST方法:<br>GET, POST = "GET", "POST"                           
+  - HTTP报文的头部字段——>设置Cookie、User-Agent、Referer:<br> COOKIE, UA, REFERER  = "Cookie", "User-Agent", "Referer"  
 ## 2. 前缀PREFIXES:
 ### PREFIXES = (" ", ") ", "' ", "') ", "\"")  
 ## 3. 后缀SUFFIXES:
 ### SUFFIXES = ("", "-- -", "#")     
 ## 4. 参数 :
 ### BOOLEAN_TESTS = ("AND %d=%d", "OR NOT (%d=%d)")  
-### TAMPER_SQL_CHAR_POOL = ('(', ')', '\'', '"')                    
