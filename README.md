@@ -2,7 +2,7 @@
 Web Vulnerability Scanner: SQL
 ### 目的：熟悉SQL漏洞等常见Web漏洞原理，重点不在效率和使用，如果正八经儿检测，sqlmapapi甚至是各种工具就方便快捷
 ## 实现功能
-1. 针对SQL注入漏洞、SQL盲注、~~XSS注入~~
+1. 针对SQL注入漏洞、SQL盲注
 2. 通过匹配报错出来的信息，可以正则判断出所用的数据库
 
 ## SQL注入总结（根据sqlmap）
