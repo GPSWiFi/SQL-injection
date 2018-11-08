@@ -36,3 +36,6 @@
 ### SUFFIXES = ("", "-- -", "#")     
 ## 4. 参数 :
 ### BOOLEAN_TESTS = ("AND %d=%d", "OR NOT (%d=%d)")  
+
+## 谢谢大家
+
