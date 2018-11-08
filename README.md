@@ -6,19 +6,6 @@ Web Vulnerability Scanner: SQL
 2. 通过匹配报错出来的信息，可以正则判断出所用的数据库
 
 ## SQL注入总结（根据sqlmap）
-## 注入类型
-## 1. First order Injection，一级注入
-### 发生在应用与用户交互的地方
-## 2. Second order Injection，二级注入
-### 数据库和应用之间
-## First order Injection，一级注入
-### - 注入位置有：
-  - GET,POST型的，表单的post提交和一些按钮的POST提交，sqlmap默认注入等级
-  - HTTP报文的头部字段，包括Cookie/User-Agent等，也可能发生SQL注入。sqlmap等级2会检测Cookie，等级3会测试 User-Agent、Referer
-### - 参数属性类型：
-  - 整形（整形参数之后跟的语句不必打破变量区）
-  - 字符型
-
 ## 注入方式
 ## 1. B: Boolean-based blind SQL injection（布尔型注入）<br>
 ### `Title: AND boolean-based blind - WHERE or HAVING clause`<br>
@@ -34,6 +21,7 @@ Web Vulnerability Scanner: SQL
 ###  `Title: MySQL >= 5.0.12 AND time-based blind`<br>
 ###  `Payload: user=user1' AND SLEEP(5) AND 'EJXX'='EJXX`
 ## 6. Q: inline_query(内联查询)
+
 
     
 ## SQL漏洞扫描代码实现
