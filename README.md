@@ -25,7 +25,8 @@ Web Vulnerability Scanner: SQL
 
     
 ## SQL漏洞扫描代码实现
-## ![avatar](http://drops.xmd5.com/full/633282f29a309bdd23eed56248fc943a6f97aaa5.jpg)
+## ![avatar](/1.png)
+## ![avatar](/2.png)
 ### 1. 判断注入位置：
   - 判断GET,POST方法
   - HTTP报文的头部字段——>设置Cookie、User-Agent、Referer
